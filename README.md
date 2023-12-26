@@ -1,4 +1,7 @@
 # SEU算力网络小组服务注册模块代码
+## 网络架构图
+![云平台网络架构图](https://github.com/Allojpass/serviceRegistration/assets/47267069/2789a87c-8466-47cc-8c01-3545e5a754c9)  
+
 ## 功能清单
 1.连接已经存在的k8s和k3s集群。  
 2.监控集群中的服务，当有新服务（k8s或k3s中Nodeport类型的service）创建时，上报服务信息（服务名称和Lsip）给chord环。  
